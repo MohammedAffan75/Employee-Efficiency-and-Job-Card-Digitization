@@ -285,32 +285,6 @@ alembic downgrade -1
 alembic downgrade <revision_id>
 ```
 
-## 🌐 Deployment
-
-### Backend Deployment Options
-
-- **Heroku** - Free tier available (with limitations)
-- **Railway** - User-friendly deployment platform
-- **Render** - Simple backend deployment
-- **PythonAnywhere** - Python hosting
-
-Set environment variables on your hosting platform:
-- `DATABASE_URL` - Your PostgreSQL connection string
-- `SECRET_KEY` - A secure random key
-- `CORS_ORIGINS` - Allowed frontend origins
-
-### Frontend Deployment Options
-
-- **Vercel** - Optimized for React/Vite
-- **Netlify** - Excellent CI/CD integration
-- **GitHub Pages** - Free static hosting
-
-Build command:
-```bash
-npm run build
-```
-
-Ensure frontend API calls point to your backend URL.
 
 ## 🐛 Troubleshooting
 
@@ -359,9 +333,6 @@ DEBUG=False
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
-## 📄 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
 
 ## 🆘 Support
 
